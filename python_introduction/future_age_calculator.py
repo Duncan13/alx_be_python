@@ -1,4 +1,4 @@
-age = int(input('How old are you: '))
+age = int(input('How old are you? '))
 
 year_diff = 2050 - 2023
 
