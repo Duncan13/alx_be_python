@@ -1,4 +1,4 @@
-from _datetime import datetime, timedelta
+from datetime import datetime, timedelta
 
 current_date = datetime.now()
 print(f'Current date and time: {current_date}')
