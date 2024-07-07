@@ -5,9 +5,9 @@ tmp = float(input('Enter the temperature to convert: '))
 temp_type = input('Is this temperature in Celsius or Fahrenheit? (C/F): ').lower()
 
 def convert_to_celsius(tmp):
-        return FAHRENHEIT_TO_CELSIUS_FACTOR*tmp-32
+        return (tmp-32)*FAHRENHEIT_TO_CELSIUS_FACTOR
 def convert_to_fahrenheit(tmp):
-       return CELSIUS_TO_FAHRENHEIT_FACTOR*tmp+32
+       return (tmp*CELSIUS_TO_FAHRENHEIT_FACTOR)+32
 
 celcius = convert_to_celsius(tmp)
 faren = convert_to_fahrenheit(tmp)
