@@ -7,6 +7,7 @@ class BankAccount:
 
     def withdraw(self,amount):
         #if self.account_balance >= amount:
+        amount = float(input('Ammount to be withdrawn: '))
         self.account_balance = self.account_balance - amount
         
 
