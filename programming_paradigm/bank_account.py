@@ -9,6 +9,8 @@ class BankAccount:
         amount = 50.0
         if self.account_balance >= amount:
             self.account_balance = self.account_balance - amount
+        else:
+            return False
         
 
     def display_balance(self):
