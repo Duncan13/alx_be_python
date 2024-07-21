@@ -4,7 +4,6 @@ class BankAccount:
 
     def deposit(self, amount):
         self.account_balance += amount
-        return self.account_balance
 
     def withdraw(self, amount):
         amount = 0
@@ -17,4 +16,4 @@ class BankAccount:
             return self.account_balance
 
     def display_balance(self):
-        return self.account_balance
+        return f'Current Balance: {self.account_balance}'
