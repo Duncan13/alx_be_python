@@ -1,4 +1,4 @@
-'''
+
 class BankAccount:
     def __init__(self, account_balance):
         self.account_balance = 0
@@ -17,7 +17,6 @@ class BankAccount:
     def display_balance(self):
         return self.account_balance
 '''
-
 class BankAccount:
     def __init__(self, account_balance):
         self.account_balance = 0
