@@ -20,7 +20,7 @@ class BankAccount:
 
 class BankAccount:
     def __init__(self, account_balance):
-        self.account_balance = 100
+        self.account_balance = 0
 
     def deposit(self,amount):
         #amount = int(input('Amount to be deposited: '))
