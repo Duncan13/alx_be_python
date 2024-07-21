@@ -32,7 +32,8 @@ class BankAccount:
         if self.account_balance >= amount:
             self.account_balance = self.account_balance - amount
             return amount
-       # else:
+        else:
+            return amount
             #print('Insufficient funds')
 
     def display_balance(self):
