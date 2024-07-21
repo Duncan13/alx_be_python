@@ -28,7 +28,7 @@ class BankAccount:
        # print(f'Deposited: ${amount}')
 
     def withdraw(self,amount):
-        amount = int(input('Amount to withdraw: '))
+        amount = 0 # int(input('Amount to withdraw: '))
         if self.account_balance >= amount:
             self.account_balance = self.account_balance - amount
             print(f'Amount withdrawn: ${amount}')
