@@ -32,7 +32,7 @@ class BankAccount:
         #if self.account_balance >= amount:
          if amount > self.account_balance:
             self.account_balance = self.account_balance - amount
-            return amount
+        #    return amount
         else:
             return amount
             #print('Insufficient funds')
