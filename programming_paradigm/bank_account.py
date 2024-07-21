@@ -31,7 +31,7 @@ class BankAccount:
         amount = 0 # int(input('Amount to withdraw: '))
         if self.account_balance >= amount:
             self.account_balance = self.account_balance - amount
-            print(f'Amount withdrawn: ${amount}')
+            #print(f'Amount withdrawn: ${amount}')
         else:
             print('Insufficient funds')
 
