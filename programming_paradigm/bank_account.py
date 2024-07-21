@@ -58,4 +58,4 @@ class BankAccount:
             return self.account_balance
 
     def display_balance(self):
-        return self.accout_balance
+        return self.account_balance
