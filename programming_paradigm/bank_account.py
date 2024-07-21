@@ -31,10 +31,12 @@ class BankAccount:
         amount = 0 # int(input('Amount to withdraw: '))
         #if self.account_balance >= amount:
          if amount > self.account_balance:
-            self.account_balance = self.account_balance - amount
-        #    return amount
-        else:
-            return amount
+           # self.account_balance = self.account_balance - amount
+            return False
+         else:
+            self.account_balance -= amount
+            return self.account_balance
+            #return amount
             #print('Insufficient funds')
 
     def display_balance(self):
